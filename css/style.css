@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
 body, html {
+  background-color: black;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -11,7 +12,6 @@ body, html {
 
 .title {
   display: inline;
-  text-align: center;
   font-size: 70px;
   font-family: "Stalinist One", cursive;
   cursor: pointer;
@@ -22,8 +22,8 @@ body, html {
   -webkit-text-fill-color: transparent;
 }
 
-.title:hover {
-  font-size: 73px;
+.titleBar {
+  text-align: center;
 }
 
 footer {
